@@ -234,6 +234,7 @@ input , textarea{
 	}
 	.section-parallex{
 	height: 60vh;
+	padding: 0px 10px;
 	}
 	.section-top{
 		min-height: 85vh;
@@ -244,5 +245,11 @@ input , textarea{
 	}
 	.social-media-bar {
 		zoom:65%;
+	}
+}
+/*Style adjustments for IE*/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+ 	.section-parallex div{
+		margin-top: 30vh !important;
 	}
 }
