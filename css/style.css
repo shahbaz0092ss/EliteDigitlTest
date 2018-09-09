@@ -1,0 +1,248 @@
+/*SECTION TOP STARTS*/
+.section-top{
+	min-height: 100vh;
+	border-bottom: 1px solid #ddd;
+}
+.header{
+	background-color: #98acad;
+	color: #fff;
+	padding: 10px;
+
+}
+.header p {
+	text-align: center;
+	font-size: 1.25rem;
+	letter-spacing: 0.5rem;
+	margin: 0px;
+}
+.banner{
+	padding-top: 45px;
+	padding-bottom: 45px;
+	text-align: center;
+}
+.banner img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner h3{
+	margin-top: 20px;
+	letter-spacing: 0.2rem;
+	word-spacing: 0.3rem;
+}
+.banner p{
+	font-size: 1.3rem;
+	letter-spacing: 0.2rem;
+	word-spacing: 0.3rem;
+}
+.social-media-bar{
+	position: absolute;
+	left: 0px;
+	top: 120px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background-color: #000;
+}
+.social-media-list{
+	list-style: none;
+	padding: 5px;
+	margin-bottom: 0px;
+	color: #000;
+
+}
+.social-media-list li{
+	background-color: #fff;
+	margin: 10px;
+	padding: 7px;
+	border-radius: 50px;
+	font-size: 1rem;
+	line-height: 10px;
+}
+/*SECTION TOP ENDS*/
+/*================================*/
+/*SECTION SERVICE STARTS*/
+.section-service{
+	padding: 50px;
+}
+.service-box {
+	text-align: center;
+	padding: 20px;
+}
+.service-box *{
+	padding: 15px;
+}
+.service-box i{
+	font-size: 2.5rem;
+}
+.service-box h4{
+	letter-spacing: 0.2rem;
+	word-spacing: 0.3rem;
+}
+.service-box hr{
+	width: 20%;
+	height: 2px;
+	background-color: #000;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.service-box p{
+	font-size: 1.2rem;
+	letter-spacing: 0.05rem;
+	word-spacing: 0.3rem;
+}
+.service-box button{
+	padding: 10px 20px;
+	border-radius: 0px;
+}
+/*SECTION SERVICE ENDS*/
+/*================================*/
+/*SECTION PARALLAX STARTS*/
+.section-parallex{
+	height: 100vh;
+	background: url(../images/parallex2.jpg);
+	background-size: cover;
+	-moz-box-shadow: inset 0 0 20px 20px #23232394;
+    -webkit-box-shadow: inset 0 0 20px 20px #23232394;
+    box-shadow: inset 0 0 20px 20px #23232394;
+}
+.section-parallex div h1{
+	letter-spacing: 0.05rem;
+	font-weight: bolder;	
+}
+.section-parallex div hr{
+	width: 10%;
+	height: 2px;
+	background-color: #fff;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.section-parallex div p{
+	font-size: 1.2rem;
+	letter-spacing: 0.05rem;
+	word-spacing: 0.3rem;
+}
+.section-parallex div h6{
+	font-size: 0.8rem;
+	letter-spacing: 0.05rem;
+	word-spacing: 0.3rem;
+	margin: 0px;
+}
+.section-parallex div h4{
+	font-size: 1.2rem;
+	letter-spacing: 0.05rem;
+	word-spacing: 0.3rem;
+}
+/*SECTION PARALLAX ENDS*/
+/*================================*/
+/*SECTION CONTACT STARTS*/
+.section-contact{
+	padding: 50px 0px;
+	text-align: center;
+}
+.section-contact div h1{
+	letter-spacing: 0.05rem;
+	font-weight: bolder;
+	text-align: center;	
+	margin:10px auto 10px auto;
+}
+.section-contact div hr{
+	width: 5%;
+	height: 2px;
+	background-color: #000;
+	padding: 0px;
+	margin:25px auto 25px auto;
+}
+.contact-box{
+	margin: 20px auto;
+	width: 40%;
+}
+.custom-btn{
+	margin-top: 20px;
+	padding: 5px 40px;
+	border-radius: 0px;
+}
+input , textarea{
+	display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-clip: padding-box;
+    border: 1px solid #f4f4f6;
+    border-radius: 0rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	background-color: #f4f4f6 ;
+}
+/*SECTION CONTACT ENDS*/
+/*================================*/
+/*SECTION FOOTER STARTS*/
+.section-footer{
+	background-color: #98acad;
+	text-align: center;
+	font-size: 1.25rem;
+	letter-spacing: 0.5rem;
+	color: #fff;
+	padding: 10px;
+}
+/*SECTION FOOTER ENDS*/
+/*================================*/
+/*MEDIA QUERY STARTS*/
+
+
+
+
+ /*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+	.contact-box{
+		width: 60%;
+	}
+}
+
+
+ /*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+	.contact-box{
+		width: 80%;
+	}
+}
+
+ /*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+	.contact-box{
+		width: 90%;
+	}
+}
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.contact-box{
+		width: 90%;
+	}
+	.header p {
+		font-size: 0.85rem;
+	}
+	.section-footer{
+		font-size: 0.85rem;
+	}
+	.hidden-smallScreen{
+		display: none;
+	}
+	.section-footer img{
+		max-width: 	70%;
+	}
+	.section-parallex{
+	height: 60vh;
+	}
+	.section-top{
+		min-height: 85vh;
+		overflow: hidden;
+	}
+	.section-service {
+    	padding: 50px 0px;
+	}
+	.social-media-bar {
+		zoom:65%;
+	}
+}
